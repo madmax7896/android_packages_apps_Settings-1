@@ -182,4 +182,9 @@
         android:summary="@string/quick_settings_quick_pull_down_summary"
         android:defaultValue="true" />
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.android.settings.Traffic"
+        android:title="@string/traffic_title" />
+
 </PreferenceScreen>
